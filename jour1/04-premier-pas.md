@@ -53,17 +53,19 @@ dans le site internet => écrire directement nos requêtes SQL ou j'utilise des 
 
 dans le terminal dans lequel vous avez saisit vagrant up 
 
-1 `vagrant ssh` # permet d'accéder à la machine 
+1. `vagrant ssh` # permet d'accéder à la machine 
 
-2 `sudo su -` # sur linux vous avez des comptes utilisateurs 
+2. `sudo su -` # sur linux vous avez des comptes utilisateurs 
             accéder au compte super user 
 
-3 `vi /etc/mongod.conf`
+3. `vi /etc/mongod.conf`
 
 ```bash
 vi # équivalent de Visual Studio Code pour un terminal 
 /etc/mongod.conf # fichier fichier dans linux 
 ```
+
+4. modifier le contenu du fichier `/etc/mongod.conf`
 
 utiliser les fleches directionnelles en allant vers le bas jusqu'à la ligne   bindIp: 127.0.0.1
 
@@ -75,7 +77,7 @@ bindIp: 0.0.0.0 (utiliser la lettre i pour insérer)
 esc 
 :wq! (! certain write quit) attention ce texte est écrit dans le coin en bas à gauche de votre écran 
 
-5 `systemctl start mongod`
+5. `systemctl start mongod`
 une fois que l'on modifie notre configuration de mongodb redémarrer le demon 
 attention la commande n'entraine au retour visuel 
 
