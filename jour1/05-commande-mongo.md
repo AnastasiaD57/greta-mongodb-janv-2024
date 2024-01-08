@@ -57,7 +57,7 @@ new DateTime() => PHP  -->
 
 3 dans cette collection insérer les documents suivants 
 
-3.1 nom : Alain , adresse : { rue : 75 ruie de Paris , ville : 'Lille' }
+3.1 nom : Alain , adresse : { rue : 75 rue de Paris , ville : 'Lille' }
 
 3.2 email : toto@yahoo.fr , position : { lat : 22 , long : 33 }
 

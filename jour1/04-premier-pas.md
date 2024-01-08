@@ -50,12 +50,12 @@ dans le site internet => écrire directement nos requêtes SQL ou j'utilise des 
 
 dans le terminal dans lequel vous avez saisit vagrant up 
 
-1 vagrant ssh # permet d'accéder à la machine 
+1 `vagrant ssh` # permet d'accéder à la machine 
 
-2 sudo su - # sur linux vous avez des comptes utilisateurs 
+2 `sudo su -` # sur linux vous avez des comptes utilisateurs 
             accéder au compte super user 
 
-3 vi /etc/mongod.conf
+3 `vi /etc/mongod.conf`
 
 ```bash
 vi # équivalent de Visual Studio Code pour un terminal 
@@ -72,19 +72,19 @@ bindIp: 0.0.0.0 (utiliser la lettre i pour insérer)
 esc 
 :wq! (! certain write quit) attention ce texte est écrit dans le coin en bas à gauche de votre écran 
 
-5 systemctl start mongod
+5 `systemctl start mongod`
 une fois que l'on modifie notre configuration de mongodb redémarrer le demon 
 attention la commande n'entraine au retour visuel 
 
 
-vi est un éditeur de texte
+vi est un éditeur de texte comme :
 
-vim 
-emac
+- vim 
+- emac
 
 ---------------
 
-maintenant que l'on a modifier la configuration de mongodb 
+maintenant que l'on a modifié la configuration de mongodb 
 on va pouvoir créer nos documents / nos collections / nos bases 
 
 mongo
