@@ -133,4 +133,20 @@ db.demo.findAndModify({
 ```
 
 
+```js
+db.demo.remove({"email" : "toto@yahoo.fr"}); 
+```
+
+```
+use exo1 ;
+
+db.dropDatabase();
+```
+
+```
+# la liste de toutes les bases que vous avez à disposition dans votre instance de MongoDB
+ show dbs ;
+
+```
+
 
