@@ -67,12 +67,14 @@ vi # équivalent de Visual Studio Code pour un terminal
 
 4. modifier le contenu du fichier `/etc/mongod.conf`
 
-utiliser les fleches directionnelles en allant vers le bas jusqu'à la ligne   bindIp: 127.0.0.1
+    - utiliser les fleches directionnelles en allant vers le bas jusqu'à la ligne   `bindIp: 127.0.0.1`
+    
+    - `bindIp: 0.0.0.0` 
 
-bindIp: 0.0.0.0 (utiliser la lettre i pour insérer)
-                (utiliser la touch esc pour sortir de insérer)
-                (utiliser la touche x pour supprimer)
-                (utiliser la touch esc pour sortir de supprimer)
+        - (utiliser la lettre i pour insérer)
+        - (utiliser la touch esc pour sortir de insérer)
+        - (utiliser la touche x pour supprimer)
+        -  (utiliser la touch esc pour sortir de supprimer)
 
 esc 
 :wq! (! certain write quit) attention ce texte est écrit dans le coin en bas à gauche de votre écran 
