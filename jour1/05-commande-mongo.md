@@ -120,6 +120,16 @@ db.demo.update({nom : "Tintin" } , { $set : { nom : "Zorro" } })
 
 
  db.demo.update({nom : "Alain"},{$set:{ nom : "Zorro" }})
+
+
+db.demo.findAndModify({
+    query : { "email" : "toto@yahoo.fr" },
+    update : {
+        $set : { "position.lat" : 72  }
+    } ,
+    upsert : true 
+});
+
 ```
 
 
