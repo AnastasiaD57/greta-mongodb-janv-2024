@@ -1,5 +1,6 @@
 # dans MySQL (MariaDB) /sqlite 
 
+```sql
 -- créer la base
 
 CREATE DATABASE demo ; 
@@ -19,18 +20,20 @@ CREATE TABLE exemple (
 INSERT INTO exemple 
 ( nom , age )
 VALUES
-( "Alain" , 22 ) ; 
+( "Alain" , 22 ) ;
+``` 
 
 ## sur MongoDB 
 
+```js
 use demo ; // créer une base de données toto (MongoDB créer cette base si elle n'existe pas)
 
 db.exemple.insert({ nom : "Alain" , age : 22 }) ; 
 // créer la table exemple si elle n'existe pas 
 // insérer une ligne (Document) qui contient 2 valeurs 
 
-
 db.exemple.insert({ nom : "Céline", isAdmin : true }) ; 
+```
 
 ## sqlite 
 
