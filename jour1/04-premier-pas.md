@@ -90,9 +90,11 @@ vi est un éditeur de texte comme :
 maintenant que l'on a modifié la configuration de mongodb 
 on va pouvoir créer nos documents / nos collections / nos bases 
 
+```js
 mongo
 
 use demo ;
 switched to db demo
 
 db.exemple.insert({nom : "Alain"})
+```

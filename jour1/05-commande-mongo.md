@@ -63,4 +63,4 @@ new DateTime() => PHP  -->
 
 4 afficher dans la console l'ensemble des documents de la collection demo de la base exo1
 
-
+db.
