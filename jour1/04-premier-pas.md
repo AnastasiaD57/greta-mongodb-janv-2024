@@ -57,14 +57,39 @@ dans le terminal dans lequel vous avez saisit vagrant up
 
 3 vi /etc/mongod.conf
 
-# vi équivalent de Visual Studio Code pour un terminal 
-# /etc/mongod.conf fichier fichier dans linux 
+```bash
+vi # équivalent de Visual Studio Code pour un terminal 
+/etc/mongod.conf # fichier fichier dans linux 
+```
 
 utiliser les fleches directionnelles en allant vers le bas jusqu'à la ligne   bindIp: 127.0.0.1
 
-bindIp: 0.0.0.0 (utiliser la lettre i)
+bindIp: 0.0.0.0 (utiliser la lettre i pour insérer)
+                (utiliser la touch esc pour sortir de insérer)
+                (utiliser la touche x pour supprimer)
+                (utiliser la touch esc pour sortir de supprimer)
 
 esc 
-!wq (! certain write quit)
+:wq! (! certain write quit) attention ce texte est écrit dans le coin en bas à gauche de votre écran 
 
 5 systemctl start mongod
+une fois que l'on modifie notre configuration de mongodb redémarrer le demon 
+attention la commande n'entraine au retour visuel 
+
+
+vi est un éditeur de texte
+
+vim 
+emac
+
+---------------
+
+maintenant que l'on a modifier la configuration de mongodb 
+on va pouvoir créer nos documents / nos collections / nos bases 
+
+mongo
+
+use demo ;
+switched to db demo
+
+db.exemple.insert({nom : "Alain"})
