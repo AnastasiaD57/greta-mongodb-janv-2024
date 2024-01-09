@@ -1,0 +1,11 @@
+Vagrant.configure(2) do |config|
+    config.vm.box = "ubuntu/focal64"
+    config.vm.define "db-server-2" do |db|
+        db.vm.network "private_network", ip: "192.168.15.15"
+        db.vm.network "forwarded_port", guest: 80, host: 8306
+        # permet de faire du partage de dossier entre la machine host et la machine virtuelle
+        # car les fichiers .php doivent être DANS le serveur
+        db.vm.synced_folder ".", "/var/www/html"
+        db.vm.provision "shell", path: "install.sh"
+    end
+end   

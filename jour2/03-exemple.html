@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body>div{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+        }
+        /* Prettier => linter  */
+    </style>
+</head>
+<body>
+    <div></div>
+    <script>
+        const social = [ 
+    {
+        img : "https://via.placeholder.com/400x200" ,
+        auteur : "moi" ,
+        datePublication : "22/01/2023",
+        nbLike : 10
+    },
+    {
+        img : "https://via.placeholder.com/400x200" ,
+        auteur : "Alain" ,
+        datePublication : "21/02/2023",
+        nbLike : 1
+    },
+    {
+        img : "https://via.placeholder.com/400x200" ,
+        auteur : "Alain" ,
+        datePublication : "01/12/2023",
+        nbLike : 0
+    }
+];
+
+// traitement
+let html = "";
+
+for(let i = 0 ; i < 3 ; i++){
+    html += `
+    <section>
+        <img src="${social[i].img}" alt="">
+        <div>
+            <span>${social[i].auteur}</span>
+            <span>publié le ${social[i].datePublication}</span>
+        </div>  
+        <div>
+            nb like : ${social[i].nbLike} <button>liker</button>
+        </div>  
+    </section>
+    `;
+}
+    document.querySelector("div").innerHTML = html; 
+    </script>
+</body>
+</html>
