@@ -112,3 +112,13 @@ url_site != null
 
 
 { code_postal : "75013" , url_site : { $ne : null } , date_saisie : { $regex : "-07-" } }
+
+
+il y a 3 requêtes différentes à réaliser : 
+
+1. toutes les balades dont les mot_cle contient culture et balade à la fois
+
+2. toutes les balades dans le 15ème arrondissement et qui possède une valeur non null pour url_site
+
+3. toutes les balades qui disposent d'une légende 
+
