@@ -63,3 +63,52 @@ rappel
         1. dans la liste il faut trouver 0.0.0.0:27017
     1. si vous ne voyez pas la ligne précédent, il suffit de lancer manuellement le sgbd mongodb via la commande : systemctl start mongod   
     1. et retester la commande : netstat -putan
+    1. 
+
+Utiliser MongoDbCompass
+
+=> pour les select (recherche)
+db.nom_collection.find({code_postal : "75014"}) 
+
+
+// { code_postal : "75014" , mot_cle : { $in : ["village"] }}
+
+{ 
+    age : 22 ,
+    "age" : 22
+}
+
+SQL 
+SELECT * FROM etudiant WHERE id = 1 OR id = 2 OR id = 3
+SELECT * FROM etudiant WHERE id IN (1, 2, 3 )
+
+$set
+
+UPDATE ....
+SET nom = ....
+
+trouver la requete mongodb qui permet de filtrer (dans la liste globale)
+
+1 toutes les balades qui ont été rédigées en juillet
+(utiliser la propriété date_saisie)
+{ date_saisie : { $regex : "-07-" } }
+
+// REGEX => opération sur les string 
+//       => concaténation "bonjour" + " les amis"
+// est ce que le texte "bonjour" contient la lettre "o"
+// REGEX => expression regulière
+// SELECT * FROM .... WHERE date LIKE "%-07-%"
+  
+2 toutes les balades dans le 13ème arrondissement
+
+{ code_postal : "75013" }
+{ code_postal : { $regex : "13"} }
+
+3 toutes les balades qui disposent d'une adresse url
+url_site != null 
+
+{ url_site : { $ne : null } }
+{ url_site : { $regex : ""} }
+
+
+{ code_postal : "75013" , url_site : { $ne : null } , date_saisie : { $regex : "-07-" } }
