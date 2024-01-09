@@ -117,8 +117,35 @@ url_site != null
 il y a 3 requêtes différentes à réaliser : 
 
 1. toutes les balades dont les mot_cle contient culture et balade à la fois
+{ mot_cle : { $all : ["culture", "balade"] } }
+
+/ slash
+\ antislash
+- dash
+| pipe OU 
+{ mot_cle : { $regex : "culture|balade"  } }
 
 2. toutes les balades dans le 15ème arrondissement et qui possède une valeur non null pour url_site
 
+{ code_postal : "75015" , url_site : { $ne : null } }
+{ code_postal : "75015" , url_site : { $regex : "" } }
+
 3. toutes les balades qui disposent d'une légende 
+
+{ legende : { $ne : null } }
+{ legende : { $regex : "" } }
+
+
+// maintenant que l'on comprend comment fonctionne une base de données Relationnel ou NOSQL
+
+// utiliser des scripts écrit en PHP 
+// js (ajax) => PHP  => manipuler nos tables directement depuis des scripts
+// variables de base 
+// fonction
+// boucle 
+// conditions
+// POO => un peu 
+// PHP qui contient du SQL // mongodb 
+
+
 
