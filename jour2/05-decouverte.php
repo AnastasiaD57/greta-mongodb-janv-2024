@@ -111,5 +111,9 @@ class Etudiant {} // je crée une class
 
 $etudiant = new Etudiant(); 
 
+echo "fin installation" ; 
+
+// http://192.168.15.15/05-decouverte.php
+
 ?>
 
