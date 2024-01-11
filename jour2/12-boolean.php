@@ -86,6 +86,10 @@ expression
 2 != 5 && ( 3 > 4  || 2 <= 14 ) 
 2 != 5 && 3 > 4  || 2 <= 14  
 pour chaque expression dire si c'est true ou false => expliquer
+// 3 structures de base 
+// if 
+// boucle 
+// function 
 */
 
 
