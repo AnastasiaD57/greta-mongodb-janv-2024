@@ -14,6 +14,6 @@ function premier (){
 }
 // dans premier vous stockez 3 instructions 
 premier() ; // Warning: Undefined variable $premier
-return $a + $b;
+// return $a + $b;
 
 //premier (); 
