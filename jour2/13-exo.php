@@ -48,3 +48,13 @@ var_dump( 2 != 5 && ( 3 > 4  || 2 <= 14 ) );
 //   false          || true
 // true 
 var_dump( 2 != 5 &&  3 > 4  || 2 <= 14  );
+
+// 3 structures
+// if
+// boucle 
+// fonction 
+
+// si vous n'utilisez pas de structure votre code s'exécuter ligne par ligne 
+// permet de changer l'ordre d'exécution de votre code 
+
+// 14-if.php
