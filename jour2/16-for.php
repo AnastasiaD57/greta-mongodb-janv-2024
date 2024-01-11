@@ -32,6 +32,7 @@ for($i = 0 ; $i < 2 ; $i++ ){
 
 // créer le fichier 17-exo.php
 // écrire une boucle php qui permet d'afficher dans votre navigateur le texte suivant
+
 // 1 x 5 = 5
 // 2 x 5 = 10
 // 3 x 5 = 15
