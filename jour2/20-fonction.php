@@ -67,3 +67,18 @@ function getArticle( int $id ) : array {
 
 getArticle(1);
 
+
+// cas pratique 
+// créer le fichier 21-exo.php
+// déclarer une fonction aireCercle 
+
+// cette fonction dispose d'un argument $rayon type chiffre à virgule 
+
+// cette fonction contient deux instructions :
+// déclarer la variable $resultat = 3,14 * rayon * rayon
+// afficher dans le navigateur la phrase suivante :
+// l'aire d'un cercle de rayon $rayon a une aire de $resultat
+
+// exécuter la fonction aireCercle pour le $rayon
+// 44,5
+// 70,43
