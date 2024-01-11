@@ -31,8 +31,39 @@ $ici = troisieme(5,7);
 // deuxieme("bonjour", 22);  // permet détecter plus rapidement les erreurs
 
 function supprimerFichier() :void{
-    unlink("21-test.txt");
-    echo "le fichier est bien supprimé <br>" ; 
+    if(file_exists("21-test.txt")){
+        unlink("21-test.txt");
+        echo "le fichier est bien supprimé <br>" ; 
+    }
+    else {
+        echo "le fichier n'existe pas <br>" ; 
+    }
 }
 
-//$resultat = supprimerFichier(); 
+$resultat = supprimerFichier(); 
+
+
+function etudiant ( string $nom , int $age) : array {
+    $etudiantDescription = []; 
+    $etudiantDescription[] = $nom ; // ajouter la valeur  $nom
+    $etudiantDescription[] = $age ;  // ajouter la valeur $age dans la tableau
+    return $etudiantDescription ; 
+}
+
+// PHPDoc
+/**
+ * cette fonction permet de récupérer depuis la base de donnée un article
+ *
+ * @param integer $id chiffre supérieur à 0 
+ * @return array  tableau qui contient titre / contenu / image
+ */
+function getArticle( int $id ) : array {
+    return [
+        "titre" => "article $id",
+        "contenu" => "..." , 
+        "img" => "..."
+    ]; 
+}
+
+getArticle(1);
+
