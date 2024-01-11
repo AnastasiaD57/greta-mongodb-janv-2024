@@ -138,4 +138,28 @@ $bouquet = "{$fleur} {$couleur}" ;
 
 // interpolation le fait d'avoir une variable calculée dans une concaténation
 
-// 
+// cas pratique 
+// 1 démarrer votre server apache 
+// lancer un terminal
+// se positionner dans le dossier jour2
+// lancer Virtual box
+// vagrant up
+
+// je lance firefox / chrome
+// http://192.168.15.15
+// http://192.168.15.15/06-string.php
+
+// créer le fichier 08-exo.php dans le dossier jour2
+// dans ce fichier 
+// créer 4 variables 
+// prenom : Alain
+// nom  : Doe
+// age  44
+// competences PHP
+
+// afficher à l'écran les phrases suivantes
+// Alain a 44 ans
+// le PHP est un langage maitrisé par Alain
+// Alain Doe découvre PHP
+
+// afficher le résultat dans votre navigateur
