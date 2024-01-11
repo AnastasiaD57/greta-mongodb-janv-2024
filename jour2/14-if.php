@@ -64,7 +64,7 @@ switch ( $distance ){
 // créer le fichier 15-exo.php contenant une variable $ville
 // initialiser la variable $ville = "Marseille"
 
-// si $ville a pour valeur Paris 
+// si $ville a pour valeur Paris ==
 // alors afficher dans le navigateur "vous habitez à Paris"
 
 // si $ville a pour valeur Boulogne ou Clamart ou Montrouge 
