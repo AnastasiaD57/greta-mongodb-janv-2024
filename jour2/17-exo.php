@@ -11,3 +11,10 @@
 for( $i = 1 ; $i <= 5 ; $i++  ){
     echo "$i x 5 = " . $i * 5 . "<br>";
 }
+
+// créer le fichier 18-exo.php
+// dans ce fichier vous allez créer un boucle qui affiche le texte suivant
+// 4 - 3 = 1
+// 4 - 4 = 0
+// 4 - 5 = -1
+// 4 - 6 = -2
