@@ -45,3 +45,4 @@ phpinfo();
 $erreur ;
 //  Parse error: syntax error, => parcourir
 // Fatal error: Uncaught Error: Undefined constant "erreur" 
+// 
