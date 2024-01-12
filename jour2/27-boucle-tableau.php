@@ -2,7 +2,19 @@
 
 // http://192.168.15.15/27-boucle-tableau.php
 
+
+/* 
+$connexion = new PDO("mysql:/...projet2", "root", ""); 
+
+$stmt = $connexion->prepare("SELECT * FROM place_stationnement WHERE pays = :pays");
+
+$stmt->execute(["pays" => "France"]);
+
+$tableau = $stmt->fetchAll(PDO::FETCH_ASSOC); */
+
+
 $pays = ["france" , "allemagne", "espagne"] ; 
+
 //           0                         2
 // je veux afficher sur une même ligne les pays du tableau
 
