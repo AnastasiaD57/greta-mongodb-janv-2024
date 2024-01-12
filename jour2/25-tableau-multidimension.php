@@ -52,3 +52,14 @@ produits[1].nom = "lilas"
 */
 
 var_dump($produits);
+
+// créer le fichier 26-exo.php
+// tableau $etudiants qui contient les 2 valeurs suivantes (ce sont des tableaux)
+// [ nom : "alain" , age : 22 ]
+// [ nom : "Zorro" , age : 44 ]
+
+// question 1 : modifier l'age de Zorro => il doit avoir 34 ans
+// question 2 : ajouter à Alain la clé isAdmin qui a la valeur true
+// question 3 : ajouter dans le tableau $etudiant un nouvel etudiant 
+//             qui s'appelle Céline et qui a un age de 35
+// question 4 : supprimer la produit age pour l'étudiant alain
