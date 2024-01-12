@@ -19,6 +19,6 @@ yes Y | apt-get -y install libapache2-mod-php8.2 apache2 a2enmod rewrite
 sed -i "s/AllowOverride None/AllowOverride All/g" /etc/apache2/apache2.conf
 
 # sed -i "s/error_reporting = .*/error_reporting = E_ALL/" /etc/php/7.0/apache2/php.ini
-# sed -i "s/display_errors = .*/display_errors = On/" /etc/php/7.0/apache2/php.ini
+sed -i "s/display_errors = .*/display_errors = On/" /etc/php/8.2/apache2/php.ini
 
 service apache2 restart

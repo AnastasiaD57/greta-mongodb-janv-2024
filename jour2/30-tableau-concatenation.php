@@ -39,6 +39,23 @@ $image = [
     "alt" => "image"
 ]; 
 
+echo "<br>";
+
+echo "<img src=\"$image[url]\" alt=\"$image[alt]\" title=\"$image[title]\"  style=\"width:200px\">";
 // à partir de cette variable écrire dans la navigateur le texte suivant
 
-// <img src="https://source.unsplash.com/random"  alt="image" title="je suis un titre">
+// <img src="https://source.unsplash.com/random"  alt="image" title="je suis un titre" style="width:200px">
+
+
+$formation = [
+    "nom" => "DWWM",
+    "duree" => 5,
+    "unite" => "mois",
+    "logo" => "https://source.unsplash.com/random", 
+];
+
+/*
+<h2>DWWM</h2>
+<p>la formation dure 5 mois</p>
+<img src="https://source.unsplash.com/random" alt="">
+*/ 
