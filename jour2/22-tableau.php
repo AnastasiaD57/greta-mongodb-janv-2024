@@ -45,3 +45,15 @@ array_splice($matieres , 2 , 1) ; // supprimer le mot php
 var_dump($matieres);
 
 // tableaux associatifs
+
+// cas pratique
+// créer le fichier 23-exo.php
+
+// dans ce fichier vous allez créer un tableau qui contient 3 elements
+// "a" , 2 , true
+
+// ajouter entre "a" et 2 la texte "bonjour"
+// ajouter entre le texte bonjour et le chiffre 2 "comment allez vous ?"
+// supprimer le dernier élément du tableau (true)
+// ajouter en première position le texte first 
+
