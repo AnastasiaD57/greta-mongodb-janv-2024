@@ -54,6 +54,13 @@ $formation = [
     "logo" => "https://source.unsplash.com/random", 
 ];
 
+echo "
+<h2>$formation[nom]</h2>
+<p>la formation dure $formation[duree] $formation[unite]</p>
+<img src=\"$formation[logo]\" alt=\"\" width=\"200\">
+";
+
+
 /*
 <h2>DWWM</h2>
 <p>la formation dure 5 mois</p>
