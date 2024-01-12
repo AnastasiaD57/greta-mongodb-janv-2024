@@ -27,3 +27,18 @@ $auteur = [
 // pouvez vous écrire dans le navigateur la phrase suivante 
 
 // Victor Hugo a dit "j'ai écrit les Misérables" en 1800 
+function firstLower( string $text) :string{
+    return strtolower($text[0]) . substr($text, 1);
+}
+echo "<br>";
+echo "$auteur[nom] a dit \"j'ai écrit $auteur[livre]\" en $auteur[annee] "; 
+
+$image = [
+    "url" => "https://source.unsplash.com/random", 
+    "title" => "je suis un titre",
+    "alt" => "image"
+]; 
+
+// à partir de cette variable écrire dans la navigateur le texte suivant
+
+// <img src="https://source.unsplash.com/random"  alt="image" title="je suis un titre">
