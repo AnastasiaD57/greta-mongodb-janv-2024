@@ -43,6 +43,7 @@ array_splice($matieres , 3 , 0 , "bonjour");
 array_splice($matieres , 2 , 1) ; // supprimer le mot php 
 
 var_dump($matieres);
+// print_r($matieres);
 
 // tableaux associatifs
 
