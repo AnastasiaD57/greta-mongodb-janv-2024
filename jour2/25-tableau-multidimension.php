@@ -62,4 +62,4 @@ var_dump($produits);
 // question 2 : ajouter à Alain la clé isAdmin qui a la valeur true
 // question 3 : ajouter dans le tableau $etudiant un nouvel etudiant 
 //             qui s'appelle Céline et qui a un age de 35
-// question 4 : supprimer la produit age pour l'étudiant alain
+// question 4 : supprimer la propriété age pour l'étudiant alain
