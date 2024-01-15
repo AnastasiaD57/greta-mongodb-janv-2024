@@ -29,7 +29,7 @@ echo $carre->aire() ;
 // cette class contient une méthode synthese
 // cette méthode contient les opérations suivantes
 // boucle foreach qui va parcourir tous les étudiants stockés dans la propriété etudiants
-// pour chaque étudiant elle va faire une echo Alain suit une formation en DWWM
-// pour chaque étudiant elle va faire une echo Zorro suit une formation en DWWM
+// pour chaque étudiant elle va faire un  echo Alain suit une formation en DWWM
+//                                   puis echo Zorro suit une formation en DWWM
 
 // une fois la class créée exécuter la méthode synthese 
