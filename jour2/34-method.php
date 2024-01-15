@@ -22,7 +22,7 @@ $carre->perimetre(); // exécuter la méthode perimetre stockée dans l'objet $c
 // cette class contient 2 méthodes
 
 // getNom 
-// cette méthode réalisé un echo du texte "je m'appelle Alain"
+// cette méthode réalise un echo du texte "je m'appelle Alain"
 
 // getAdresse
 // cette méthode return le texte suivant "75 rue de Paris";
