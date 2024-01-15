@@ -32,18 +32,3 @@ function prixTTC ( float  $prixHT ) : float {
     return $prixHT * 1.2 ; 
 }
 // mode d'emploi très synthétique de votre fonction 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -34,5 +34,6 @@ var_dump($fleur);
 // $nom_tableau["nom"]
 
 echo "j'ai acheté une {$fleur->nom} à {$fleur->prix} euros <br>"; 
+echo "j'ai acheté une $fleur->nom à $fleur->prix euros <br>"; 
  
 
