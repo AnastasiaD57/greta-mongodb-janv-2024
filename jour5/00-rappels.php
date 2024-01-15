@@ -154,7 +154,8 @@ var_dump($salle->enTravaux) ; // false
 // 4 question : tableau indexé 
 // [ "question 1" , "quel est le mot clé pour générer un objet en PHP ?"  ]
 
+// $exo->question[0]
 
-// écrire dans le navigateur le texte suivante 
+// écrire dans le navigateur les textes suivants : 
 // l'exo de PHP est sur "je découvre la POO en PHP" noté sur 5 points à rendre le 22/01/2024
 // la question1 est quel est le mot clé pour générer un objet en PHP ?
