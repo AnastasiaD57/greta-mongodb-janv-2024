@@ -142,3 +142,19 @@ $salle = new Salle(); // créer un objet depuis la class
 echo $salle->batiment ; // "A"
 
 var_dump($salle->enTravaux) ; // false
+
+// lancer votre machine virtuelle 
+// créer le fichier 33-exo.php (dans le dossier jour2)
+
+// vous allez créer une class qui s'appelle Exo
+// cette class contient 4 propriétés 
+// 1 note 5
+// 2 enonce : "je découvre la POO en PHP"
+// 3 dateRemise : 22/01/2024
+// 4 question : tableau indexé 
+// [ "question 1" , "quel est le mot clé pour générer un objet en PHP ?"  ]
+
+
+// écrire dans le navigateur le texte suivante 
+// l'exo de PHP est sur "je découvre la POO en PHP" noté sur 5 points à rendre le 22/01/2024
+// la question1 est quel est le mot clé pour générer un objet en PHP ?
