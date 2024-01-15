@@ -18,3 +18,18 @@ $carre = new Carre();
 echo $carre->cote . "<br>"; 
 echo $carre->perimetre() . "<br>";
 echo $carre->aire() ; 
+
+
+// créer le fichier 37-exo.php 
+
+// ce fichier contient une class Exo2 
+// cette class contient 2 propriétés
+// tableau d'étudiants = ["Alain", "Zorro"]
+// nomFormation = "DWWM"
+// cette class contient une méthode synthese
+// cette méthode contient les opérations suivantes
+// boucle foreach qui va parcourir tous les étudiants stockés dans la propriété etudiants
+// pour chaque étudiant elle va faire une echo Alain suit une formation en DWWM
+// pour chaque étudiant elle va faire une echo Zorro suit une formation en DWWM
+
+// une fois la class créée exécuter la méthode synthese 
