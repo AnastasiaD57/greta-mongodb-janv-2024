@@ -40,7 +40,7 @@ var_dump($fleur4);
 // domaine type string (on laisse au construction l'action de lui donner la valeur)
 // créer un constructeur qui contient 2 paramètres $date , $domaine tous les deux de type string
 // dans les constructeurs vous allez initialiser les propriétés dateRentree et domaine
-// créer une dernier méthode (classique) synthese
+// créer une dernière méthode (classique) synthese
 // cette méthode echo le texte suivant je suis rentré en $this->dateRentree pour suivre une formation en $this->domaine
 
 // une fois class créée => // créer un objet formation1 avec comme date "janvier 2023" "Informatique"

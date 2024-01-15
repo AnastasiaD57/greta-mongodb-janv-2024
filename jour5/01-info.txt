@@ -1,0 +1,5 @@
+machine virtuelle => machine qui contient une machine 
+
+=> VirtualBox et VMWAre 
+
+=> outil Vagrant ou Docker => PaaS Plateform As A Service 
