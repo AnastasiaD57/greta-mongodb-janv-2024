@@ -16,7 +16,7 @@ $connexion = new PDO($dsn , $login , $password);
 
 var_dump($connexion); 
 // 2 effectuer une requête SQL => SELECT 
-$stmt = $connexion->query("SELECT title , auteur FROM articles WHERE title LIKE '%y%' ORDER BY title ASC"); 
+$stmt = $connexion->query("SELECT title , auteur FROM articles WHERE title LIKE '%q%' ORDER BY title ASC"); 
 
 var_dump($stmt);
 // 3 exécuter ma requete => tableau associatif 
@@ -38,3 +38,4 @@ foreach($tableau as $key => $value){
         </tr>
     ";
 }
+echo "</table>"; 
