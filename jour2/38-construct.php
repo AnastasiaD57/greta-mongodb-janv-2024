@@ -19,7 +19,7 @@ class Vehicule{
 }
 $v = new Vehicule(); // créer l'objet $v ET exécuter la méthode __construct()
 var_dump($v); 
-$v->toto();  // cette caractéristique n'a pas d'impact sur les autres méthodes de classe 
+$v->toto();  // cette méthode est une méthode de base, il faut l'appeler pour l'exécuter (elle n'est pas appelée automatiquement comme le __construct()) 
 
 // cas pratique 
 // créer un nouveau fichier 39-exo.php
