@@ -1,5 +1,15 @@
 <?php 
 
+// 192.168.15.19/03-start.php
+// 192.168.15.19/03-start.php?nb_like=7400&trier=nb_like
+// 192.168.15.19/03-start.php?nb_like=400&trier=title
+// 192.168.15.19/03-start.php?nb_like=1200&trier=categorie
+// dans la barre d'adresse vous pouvez ajouter ? clé=valeur&clé=valeur
+
+$nbLike = $_GET["nb_like"] ;  //7400 ;  // paramètre d'url en $_GET 
+$trier = $_GET["trier"] ; //"nb_like" ;
+// $_GET => super globale => VARIABLE QUI EST permet de récupérer les parties après ? dans une adresse web 
+
 // http://192.168.15.19/03-start.php
 // 1 accéder à la base de données 
 $connexion = new PDO("mysql://host=localhost;dbname=demo;charset=utf8","root", "demo");
@@ -10,8 +20,8 @@ $connexion = new PDO("mysql://host=localhost;dbname=demo;charset=utf8","root", "
 $sql = "
 SELECT id, title , categorie , nb_like
 FROM articles
-WHERE nb_like > 200 
-ORDER BY title ASC
+WHERE nb_like > $nbLike 
+ORDER BY $trier ASC
 ";
 
 $stmt = $connexion->query($sql);
