@@ -62,3 +62,16 @@ echo  $n->affichage(); // 10.5 / 20
 // Java / Kotlin => langage natif pour Android  
 
 // React Native => js => librairie React Native => Swift / Java 
+
+
+// lancer la machine virtuelle qui contient php et mysql et phpmyadmin
+// lancer virtual box
+// lancer une terminal => positionner dans le dossier jour5
+// vagrant up 
+
+// cas pratique créer dans le dossier jour5 un fichier 03-start.php 
+// dans ce fichier vous allez établir une connexion avec la base "demo" via PDO
+// vous allez effectuer une requête SQL récupérer tous les articles 
+// id / title / categorie / nb_like
+dont le nombre de nb_like  > 200 et trier par ordre croissant au niveau du titre A -> Z  
+// afficher le resultat dans un tableau html 
