@@ -58,4 +58,4 @@ echo "</table>";
 
 // une fois que votre affichage est opérationnel
 // vous allez rendre la requête sql dynamique en utilisant des paramètres d'url à récupérer via $_GET (super globale)
-// http://192.168.15.19/05-exo.php?categorie=css&titre=y&trier=title
+// http://192.168.15.19/06-exo.php?categorie=css&titre=y&trier=title
