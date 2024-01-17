@@ -53,3 +53,15 @@ foreach($articles as $key => $value){
     ";
 }
 echo "</table>"; 
+
+// créer le fichier 04-exo.php dans le dossier jour5
+// connexion  / requete / fetchAll
+// demander à la table articles les 5 colonnes suivantes
+// id title is_active auteur nb_commentaire
+// filtre is_active = 1
+// et nb_commentaire > 50 
+
+// rendre la requete sql dynamique via l'utilisation de la super globale $_GET 
+// ajouter 2 paramètres à votre url : is_active=1 / 0 & nb_commentaire = chiffre 
+
+// utiliser les valeurs saisies dans l'url pour rendre dynamique votre requete sql 
