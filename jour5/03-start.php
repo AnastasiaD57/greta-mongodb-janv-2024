@@ -54,7 +54,7 @@ foreach($articles as $key => $value){
 }
 echo "</table>"; 
 
-// créer le fichier 04-exo.php dans le dossier jour5
+// créer le fichier 05-exo.php dans le dossier jour5
 // connexion  / requete / fetchAll
 // demander à la table articles les 5 colonnes suivantes
 // id title is_active auteur nb_commentaire
