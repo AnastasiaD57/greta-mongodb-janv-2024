@@ -44,3 +44,18 @@ foreach($articles as $key => $value){
     ";
 }
 echo "</table>"; 
+
+// cas pratique créer le fichier 06-exo.php
+// dans ce fichier vous allez réaliser connexion / query / fetchAll()
+// récupérer depuis la table articles les colonnes suivantes 
+// id / title / created_at / nb_like / categorie
+// filtrer sur les deux critères suivants
+// categorie = PHP
+// et titre contient la lettre r LIKE %r%
+// classé par ordre croissant created_at
+
+// vous exécutez 
+
+// une fois que votre affichage est opérationnel
+// vous allez rendre la requête sql dynamique en utilisant des paramètres d'url à récupérer via $_GET (super globale)
+// http://192.168.15.19/05-exo.php?categorie=css&titre=y&trier=title
