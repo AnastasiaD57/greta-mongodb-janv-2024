@@ -20,7 +20,6 @@ if(!empty($_POST)){
     if($nbLignes == 1 ){
         echo "l'article numéro $id vient d'être update <br>";
     }
-
 }
 
 $id = $_GET["id"];
