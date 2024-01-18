@@ -16,8 +16,6 @@
 
 $connexion = new PDO("mysql://host=localhost;dbname=demo;charset=utf8", "root", "demo");
 
-
-
 if(!empty($_POST)){
 
     // pas besoin de redemander une connexion c'est déjà disponible
