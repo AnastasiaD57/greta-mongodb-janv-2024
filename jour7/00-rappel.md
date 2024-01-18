@@ -54,3 +54,19 @@ $_POST["commentaire"];
 // demander aux utilisateurs de notre site 
 // cliquer sur des liens $_GET
 // remplir des formulaires $_POST
+
+// relancer votre machine vagrant dans le terminal en se positionnant dans le dossier jour5
+
+// créer le fichier 11-exo.php 
+
+// dans ce fichier créer un formulaire 
+// ce formulaire va permettre d'ajouter de nouvelles lignes dans notre base de données demo dans la table articles
+
+// ce formulaire contient 3 champs 
+// auteur
+// categorie
+// titre
+
+// une fois que ce formulaire est complété => envoyer au serveur via un $_POST
+// les informations saisies => vérifier que le $_POST n'est pas vide
+// dans ce cas réalisez un INSERT dans la table articles
