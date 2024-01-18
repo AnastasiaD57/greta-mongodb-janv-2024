@@ -41,11 +41,11 @@ $article = $stmt->fetch(PDO::FETCH_ASSOC);
     <input type="hidden" name="id" value="<?php echo $article["id"] ?>">
     <div>
         <label for="title">titre</label>
-        <input type="text" name="titre" value="<?php echo $article["title"] ?>">
+        <input type="text" name="titre" id="title" value="<?php echo $article["title"] ?>">
     </div>
     <div>
         <label for="like">like</label>
-        <input type="number" name="nb_like" value="<?php echo $article["nb_like"] ?>">
+        <input type="number" name="nb_like" id="nb_like" value="<?php echo $article["nb_like"] ?>">
     </div>
     <input type="submit" value="modifier article">
 </form>

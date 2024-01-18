@@ -20,6 +20,8 @@ if(!empty($_POST)){
 
     // pas besoin de redemander une connexion c'est déjà disponible
 
+    // ' =>  &#039;
+
     // htmlentities () ajouter \ devant les apostrophes
     $titre = htmlentities($_POST["titre"]);
     $contenu = htmlentities($_POST["contenu"]);
@@ -44,7 +46,7 @@ $stmt = $connexion->query("SELECT * FROM articles WHERE id = $id");
 
 $article = $stmt->fetch(PDO::FETCH_ASSOC); // une ligne
 
-// var_dump($article); // http://192.168.15.19/12-update.php?id=2
+var_dump($article); // http://192.168.15.19/12-update.php?id=1
 
 ?>
 
