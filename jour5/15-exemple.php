@@ -32,7 +32,7 @@ $liste = [
 
 echo $liste["deux"]; 
 
-// créer le fichier 15-exo.php
+// créer le fichier 14-exo.php
 // réaliser un update sur les lignes de table articles 
 // une fois connecté => récupérer l'article via son id 
 // remplir un formulaire ayant 4 champs 
